@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@500&family=Ubuntu:wght@300&display=swap');
+:root{
+    --primary-app-color: #02203c;
+    --secondary-app-color: #001528;
+    --standout-color:#fffb00;
+}
+
+.resume-option-items{
+    width: 1%;
+    transition: all 0.3s ease-in-out;
+    padding-block: 24px;
+    padding-inline: 24px;
+    color: #000;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+}
+.resume-option-items:hover{
+    width: 100%;
+    background: linear-gradient(-90deg, var(--primary-app-color), var(--secondary-app-color));
+    color: #fff;
+}
+
+.icons-span{
+    margin-block:28px;
+    margin-inline: 24px;
+    color: #fff;
+}
+
+.selected{
+    background: linear-gradient(-45deg, var(--primary-app-color), var(--secondary-app-color));
+    color: #fff;
+    width: 100%;
+}
+.bg-new{
+    background: linear-gradient(-45deg, var(--primary-app-color), var(--secondary-app-color));
+}
+.resume-outer-section{
+    padding-top: 110px;
+    padding-bottom: 115px;
+    background: var(--primary-app-color);
+    color: #fff;
+    clip-path: polygon(0 9%, 100% 0, 100% 90%, 0 100%);
+}
+.resume-new-section{
+    margin-top: 28px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 10px 10px 31px 2px gray;
+    width: 75%;
+    height: 420px;
+    margin-inline: auto;
+}
+
+@media all and (max-width: 786px) {
+    .resume-new-section{
+        height: 100% !important;
+        width: 99% !important;
+    }
+}

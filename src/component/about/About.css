@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@500&family=Ubuntu:wght@300&display=swap');
+
+.about-me-text{
+    font-family: "Ubuntu";
+    font-weight: 800;
+    font-size: 3.5rem;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.why-text-sub{
+    font-family: "Ubuntu";
+    font-weight: 400;
+    font-size: 1.4rem;
+    text-align: center;
+    opacity: 0.8;
+    text-transform: capitalize;
+}    
+.aboutme-inside{
+    width: 70%;
+    margin-inline: auto;
+}
+.about-me-box{
+    border-radius: 14px;
+}
+.some-text-about-me{
+    font-family: "Ubuntu";
+    font-weight: 600;
+    font-size: 1.3rem;
+    opacity: 0.8;
+    text-align: justify;
+}
+.few-highlights{
+    font-family: "Ubuntu";
+    padding: 12px;
+}
+.few-text{
+    font-family: "Ubuntu";
+    font-weight: 600;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: rgb(32, 31, 31);
+} 
+.few-list{
+    font-family: "Ubuntu";
+    font-size: 1.6rem;
+}
