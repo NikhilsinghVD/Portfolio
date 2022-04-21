@@ -26,8 +26,8 @@ const About = () => {
                             <span className='few-text'>Here are few highlights:</span>
                             <span className='few-list'>
                                 <ul>
-                                    <li>Full Stack Developer</li>
                                     <li>Interactive front end as per design</li>
+                                    <li>Managing large application with the help of Redux</li>
                                     <li>Single page Application</li>
                                 </ul>
                             </span>
